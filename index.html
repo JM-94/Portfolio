@@ -8,63 +8,61 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-	
+
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
-		
-
 		/* 슬라이드 시작 */
-		.w-90{
-			text-align : center;
+		.w-90 {
+			text-align: center;
 			margin: auto;
-		  }
-
-		 .carousel-control-prev-icon
-		{
-		  background-color: cadetblue;     
-		  width: 50px; 
-		  height: 50px;  
-		}      
-		.carousel-control-next-icon
-		{
-		  background-color: cadetblue; 
-		  width: 50px; 
-		  height: 50px;  
 		}
+
+		.carousel-control-prev-icon {
+			background-color: cadetblue;
+			width: 50px;
+			height: 50px;
+		}
+
+		.carousel-control-next-icon {
+			background-color: cadetblue;
+			width: 50px;
+			height: 50px;
+		}
+
 		/* 슬라이드 끝 */
 
 
 		body {
 			font-family: Arial;
 			margin: 0;
-		  }
-		  
-		  * {
+		}
+
+		* {
 			box-sizing: border-box;
-		  }
-		  
-		  img {
+		}
+
+		img {
 			vertical-align: middle;
-		  }
-		  
-		  /* Position the image container (needed to position the left and right arrows) */
-		  .container {
+		}
+
+		/* Position the image container (needed to position the left and right arrows) */
+		.container {
 			position: relative;
-		  }
-		  
-		  /* Hide the images by default */
-		  .mySlides {
+		}
+
+		/* Hide the images by default */
+		.mySlides {
 			display: none;
-		  }
-		  
-		  /* Add a pointer when hovering over the thumbnail images */
-		  .cursor {
+		}
+
+		/* Add a pointer when hovering over the thumbnail images */
+		.cursor {
 			cursor: pointer;
-		  }
-		  
-		  /* Next & previous buttons */
-		  .prev,
-		  .next {
+		}
+
+		/* Next & previous buttons */
+		.prev,
+		.next {
 			cursor: pointer;
 			position: absolute;
 			top: 40%;
@@ -77,58 +75,58 @@
 			border-radius: 0 3px 3px 0;
 			user-select: none;
 			-webkit-user-select: none;
-		  }
-		  
-		  /* Position the "next button" to the right */
-		  .next {
+		}
+
+		/* Position the "next button" to the right */
+		.next {
 			right: 0;
 			border-radius: 3px 0 0 3px;
-		  }
-		  
-		  /* On hover, add a black background color with a little bit see-through */
-		  .prev:hover,
-		  .next:hover {
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
 			background-color: rgba(0, 0, 0, 0.8);
-		  }
-		  
-		  /* Number text (1/3 etc) */
-		  .numbertext {
+		}
+
+		/* Number text (1/3 etc) */
+		.numbertext {
 			color: #f2f2f2;
 			font-size: 12px;
 			padding: 8px 12px;
 			position: absolute;
 			top: 0;
-		  }
-		  
-		  /* Container for image text */
-		  .caption-container {
+		}
+
+		/* Container for image text */
+		.caption-container {
 			text-align: center;
 			background-color: #222;
 			padding: 2px 16px;
 			color: white;
-		  }
-		  
-		  .row:after {
+		}
+
+		.row:after {
 			content: "";
 			display: table;
 			clear: both;
-		  }
-		  
-		  /* Six columns side by side */
-		  .column {
+		}
+
+		/* Six columns side by side */
+		.column {
 			float: left;
 			width: 16.66%;
-		  }
-		  
-		  /* Add a transparency effect for thumnbail images */
-		  .demo {
+		}
+
+		/* Add a transparency effect for thumnbail images */
+		.demo {
 			opacity: 0.6;
-		  }
-		  
-		  .active,
-		  .demo:hover {
+		}
+
+		.active,
+		.demo:hover {
 			opacity: 1;
-		  }
+		}
 	</style>
 </head>
 
@@ -152,10 +150,14 @@
 			<!-- Nav -->
 			<nav id="nav">
 				<ul>
-					<li><a href="#top" id="top-link" style="font-size:24px"><span class="icon solid fa-home" >Intro</span></a></li>
-					<li><a href="#portfolio" id="portfolio-link" style="font-size:24px"><span class="icon solid fa-th">Project</span></a></li>
-					<li><a href="#about" id="about-link" style="font-size:24px"><span class="icon solid fa-user">About Me</span></a></li>
-					<li><a href="#contact" id="contact-link" style="font-size:24px"><span class="icon solid fa-envelope">Contact</span></a>
+					<li><a href="#top" id="top-link" style="font-size:24px"><span
+								class="icon solid fa-home">Intro</span></a></li>
+					<li><a href="#portfolio" id="portfolio-link" style="font-size:24px"><span
+								class="icon solid fa-th">Project</span></a></li>
+					<li><a href="#about" id="about-link" style="font-size:24px"><span class="icon solid fa-user">About
+								Me</span></a></li>
+					<li><a href="#contact" id="contact-link" style="font-size:24px"><span
+								class="icon solid fa-envelope">Contact</span></a>
 					</li>
 				</ul>
 			</nav>
@@ -163,10 +165,10 @@
 
 				<!-- Social Icons -->
 				<ul class="icons">
-					<li><a href="https://github.com/JM-94" class="icon brands fa-github"style="font-size:20px"><span
+					<li><a href="https://github.com/JM-94" class="icon brands fa-github" style="font-size:20px"><span
 								class="label">Github</span></a></li>
-					<li><a href="https://www.instagram.com/47jun_m/" class="icon brands fa-instagram"style="font-size:20px"><span
-								class="label">Dribbble</span></a></li>
+					<li><a href="https://www.instagram.com/47jun_m/" class="icon brands fa-instagram"
+							style="font-size:20px"><span class="label">Dribbble</span></a></li>
 				</ul>
 
 			</div>
@@ -246,10 +248,11 @@
 							<header style="font-size:19px">
 
 								<h3>노브랜드 Kiosk</h3>
-								<h3>Java Swing, </h3><h3>SQL Developer</h3>
+								<h3>Java Swing, </h3>
+								<h3>SQL Developer</h3>
 								<h3>JavaSwing : 화면 구현</h4>
-								<h3>SQLDeveloper : DB저장</h4>
-								<a style='cursor:pointer' onClick="location.href='button2.html'">코드보기</a>
+									<h3>SQLDeveloper : DB저장</h4>
+										<a style='cursor:pointer' onClick="location.href='button2.html'">코드보기</a>
 							</header>
 						</article>
 						<!-- <article class="item">
@@ -267,8 +270,8 @@
 								<h3>코로나 웹페이지</h3>
 								<h3>Jsp, Python, MySQL</h3>
 								<h3>python:MySQL에 DB저장</h4>
-								<h3>Jsp : 웹제작</h4>
-								<a style='cursor:pointer' onClick="location.href='button3.html'">코드보기</a>
+									<h3>Jsp : 웹제작</h4>
+										<a style='cursor:pointer' onClick="location.href='button3.html'">코드보기</a>
 							</header>
 						</article>
 						<!-- <article class="item">
@@ -282,32 +285,9 @@
 
 			</div>
 		</section>
-		<section id="about" class="">
+
+		<section id="about" class="three">
 			<div class="container">
-				<!-- About Me -->
-
-
-
-				<section id="about" class="three">
-					<div class="container">
-						
-								
-							
-						
-					
-						
-						
-						
-						
-						
-						
-						
-						
-					</div>
-				</section>
-
-
-
 
 				<header>
 					<h2>Skill</h2>
@@ -367,108 +347,230 @@
 					  <span class="sr-only" >Next</span>
 					</a>
 				  </div> -->
-				<p>HTML, Java, Spring, C#, C, Python, SQL, JSP</p>
-				<p>개발의 처음 시작은 C(컴퓨터언어 기본 문법, 간단한 로또 번호 생성 프로그램 제작)로 시작하였습니다. C를 기본으로 하여 HTML(HTML+CSS3를 활용한 웹제작)를 들으며
-					웹페이지를 제작해보았습니다.
-					또한 JAVA를 기반으로 Java Swing, Java Spring, JSP를 활용하여 Kiosk프로그램, 코로나 홈페지를 제작하여 보았습니다.
-				</p>
+					<p>HTML, Java, Spring, C#, C, Python, SQL, JSP</p>
+					<p>개발의 처음 시작은 C(컴퓨터언어 기본 문법, 간단한 로또 번호 생성 프로그램 제작)로 시작하였습니다. C를 기본으로 하여 HTML(HTML+CSS3를 활용한 웹제작)를
+						들으며
+						웹페이지를 제작해보았습니다.
+						또한 JAVA를 기반으로 Java Swing, Java Spring, JSP를 활용하여 Kiosk프로그램, 코로나 홈페지를 제작하여 보았습니다.
+					</p>
 
-				<div class="progress-wrap">
-					<h3><strong>HTML, CSS</strong></h3>
-					<div class="progress">
-						<div class="progress-bar color-1" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							aria-valuemax="100" style="width:60%">
-							<span>60%</span>
+					<div class="progress-wrap">
+						<h3><strong>HTML, CSS</strong></h3>
+						<div class="progress">
+							<div class="progress-bar color-1" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+								aria-valuemax="100" style="width:60%">
+								<span>60%</span>
+							</div>
 						</div>
-					</div>
-					UI 요구사항과 UI 표준 지침에 따라 설계된 화면, 폼, 메뉴 구조 등을 HTML, CSS 및 자바스크립트 등을 기반으로 구현할 수 있게 공부하였습니다.
-				</div><br>
+						UI 요구사항과 UI 표준 지침에 따라 설계된 화면, 폼, 메뉴 구조 등을 HTML, CSS 및 자바스크립트 등을 기반으로 구현할 수 있게 공부하였습니다.
+					</div><br>
 
 
-				<div class="progress-wrap">
-					<h3><strong>SQL</strong></h3>
-					<div class="progress">
-						<div class="progress-bar color-2" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							aria-valuemax="100" style="width:50%">
-							<span>50%</span>
+					<div class="progress-wrap">
+						<h3><strong>SQL</strong></h3>
+						<div class="progress">
+							<div class="progress-bar color-2" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+								aria-valuemax="100" style="width:50%">
+								<span>50%</span>
+							</div>
 						</div>
-					</div>
-					데이터 모델링의 이해하고 SQL 기본 및 활용을 공부하였습니다 
-				</div><br>
+						데이터 모델링의 이해하고 SQL 기본 및 활용을 공부하였습니다
+					</div><br>
 
 
-				<div class="progress-wrap">
-					<h3><strong>Python</strong></h3>
-					<div class="progress">
-						<div class="progress-bar color-3" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							aria-valuemax="100" style="width:30%">
-							<span>30%</span>
+					<div class="progress-wrap">
+						<h3><strong>Python</strong></h3>
+						<div class="progress">
+							<div class="progress-bar color-3" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+								aria-valuemax="100" style="width:30%">
+								<span>30%</span>
+							</div>
 						</div>
-					</div>
-					Python의 기본문법을 공부하고 기본적인 스크립트 프로그래밍을 해보았습니다.
-				</div><br>
+						Python의 기본문법을 공부하고 기본적인 스크립트 프로그래밍을 해보았습니다.
+					</div><br>
 
 
-				<div class="progress-wrap">
-					<h3><strong>C#</strong></h3>
-					<div class="progress">
-						<div class="progress-bar color-4" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							aria-valuemax="100" style="width:60%">
-							<span>60%</span>
+					<div class="progress-wrap">
+						<h3><strong>C#</strong></h3>
+						<div class="progress">
+							<div class="progress-bar color-4" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+								aria-valuemax="100" style="width:60%">
+								<span>60%</span>
+							</div>
 						</div>
+						C# 문법요소 공부, 객체지향 프로그래밍의 개념을 정리, 포함과 상속을 통한 재활용 기법을 공부하였습니다.
 					</div>
-					C# 문법요소 공부, 객체지향 프로그래밍의 개념을 정리, 포함과 상속을 통한 재활용 기법을 공부하였습니다.
+					<br>
+
+					<div class="progress-wrap">
+						<h3><strong>Java</strong></h3>
+						<div class="progress">
+							<div class="progress-bar color-5" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+								aria-valuemax="100" style="width:50%">
+								<span>50%</span>
+							</div>
+						</div>
+						Java를 활용하여 애플리케이션 구현, 기본문법들을 학습, 라이브러리를 활용하는 법을 공부하였습니다.
+					</div><br>
+
+
+					<div class="progress-wrap">
+						<h3><strong>Java script</strong></h3>
+						<div class="progress">
+							<div class="progress-bar color-6" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+								aria-valuemax="100" style="width:40%">
+								<span>40%</span>
+							</div>
+						</div>
+						Java script의 기본문법(연산자, 명령문, 사용자 정의 자료형, 제어구문, 함수, 객체 생성과 배열, API활용)을 공부하였습니다.
+					</div><br>
+
+
+					<div class="progress-wrap">
+						<h3><strong>Spring</strong></h3>
+						<div class="progress">
+							<div class="progress-bar color-7" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+								aria-valuemax="100" style="width:30%">
+								<span>30%</span>
+							</div>
+						</div>
+						Spring를 활용하여 간단한 웹사이트를 만들어 보았습니다.
+					</div><br>
+
+					<div class="progress-wrap">
+						<h3><strong>Github</strong></h3>
+						<div class="progress">
+							<div class="progress-bar color-7" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+								aria-valuemax="100" style="width:40%">
+								<span>40%</span>
+							</div>
+						</div>
+						프로젝트와 공부한 소스를 관리 할때 Github로 관리 및 협업해서 관리하였습니다.
+					</div>
+
+
 				</div>
-				<br>
 
-				<div class="progress-wrap">
-					<h3><strong>Java</strong></h3>
-					<div class="progress">
-						<div class="progress-bar color-5" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							aria-valuemax="100" style="width:50%">
-							<span>50%</span>
-						</div>
-					</div>
-					Java를 활용하여 애플리케이션 구현, 기본문법들을 학습, 라이브러리를 활용하는 법을 공부하였습니다.
-				</div><br>
-
-
-				<div class="progress-wrap">
-					<h3><strong>Java script</strong></h3>
-					<div class="progress">
-						<div class="progress-bar color-6" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							aria-valuemax="100" style="width:40%">
-							<span>40%</span>
-						</div>
-					</div>
-					Java script의 기본문법(연산자, 명령문, 사용자 정의 자료형, 제어구문, 함수, 객체 생성과 배열, API활용)을 공부하였습니다.
-				</div><br>
-
-
-				<div class="progress-wrap">
-					<h3><strong>Spring</strong></h3>
-					<div class="progress">
-						<div class="progress-bar color-7" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							aria-valuemax="100" style="width:30%">
-							<span>30%</span>
-						</div>
-					</div>
-					Spring를 활용하여 간단한 웹사이트를 만들어 보았습니다.
-				</div><br>
-
-				<div class="progress-wrap">
-					<h3><strong>Github</strong></h3>
-					<div class="progress">
-						<div class="progress-bar color-7" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-							aria-valuemax="100" style="width:40%">
-							<span>40%</span>
-						</div>
-					</div>
-					프로젝트와 공부한 소스를 관리 할때 Github로 관리 및 협업해서 관리하였습니다.
-				</div>
-
+				
 
 			</div>
+		</section>
+
+
+
+		<section id="about" class="four">
+			<div class="container">
+				<!-- About Me -->
+
+
+				<div id="user_cont">
+					<section>
+						<header>
+							<div class="page_head">
+								<h2>공부 코드</h2>
+							</div>
+						</header>
+						<form name="fboardlist" method="post">
+
+							<table cellpadding="0" cellspacing="0" class="tbl_type01" summary="">
+								
+								<colgroup>
+									<col width="70px">
+									<col>
+									<col width="70px">
+									
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">번호</th>
+										<th scope="col">제목</th>
+									</tr>
+								</thead>
+								<tbody>
+
+									<tr>
+										<td>
+											1 </td>
+										<td class="td_left03">
+											<nobr style="display:block; overflow:hidden;">
+												<a href="https://github.com/JM-94/Study/tree/main/C/C_work2021">c</a>
+											</nobr>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											2 </td>
+										<td class="td_left03">
+											<nobr style="display:block; overflow:hidden;">
+												<a href="https://github.com/JM-94/Study/tree/main/C%23">C#</a>
+											</nobr>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											3 </td>
+										<td class="td_left03">
+											<nobr style="display:block; overflow:hidden;">
+												<a href="https://github.com/JM-94/Study/tree/main/HTML">HTML</a>
+											</nobr>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											4 </td>
+										<td class="td_left03">
+											<nobr style="display:block; overflow:hidden;">
+												<a href="https://github.com/JM-94/Study/tree/main/java_script">Java
+													Script</a></nobr>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											5 </td>
+										<td class="td_left03">
+											<nobr style="display:block; overflow:hidden;">
+												<a href="https://github.com/JM-94/Study/tree/main/java_work21/workspace">Java</a>
+											</nobr>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+											6 </td>
+										<td class="td_left03">
+											<nobr style="display:block; overflow:hidden;">
+												<a href="https://github.com/JM-94/Study/tree/main/python">Python</span>
+											</nobr>
+										</td>
+									</tr>
+
+									
+									<tr>
+										<td>
+											7 </td>
+										<td class="td_left03">
+											<nobr style="display:block; overflow:hidden;">
+												<a href="https://github.com/JM-94/Study/tree/main/spring_work">Spring</a>
+											</nobr>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</form>
+					</section>
+				</div>
+				<!-- 게시판 목록 끝 -->
+
+				
+
+
+
+
+				
 		</section>
 
 		<!-- Contact -->
@@ -531,9 +633,11 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
 	</script>
 
 </body>
