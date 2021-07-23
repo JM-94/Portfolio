@@ -418,12 +418,16 @@ br.clear {
 
 /* Container */
 
+.StudyContainer {
+	margin: 0 auto;
+	max-width: 100%;
+	width: 630px;
+}
 .container {
 	margin: 0 auto;
 	max-width: 100%;
 	width: 1400px;
 }
-
 @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 	.container {
