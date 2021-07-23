@@ -417,7 +417,9 @@ br.clear {
 }
 
 /* Container */
-
+.center {
+	text-align: center;
+}
 .StudyContainer {
 	margin: 0 auto;
 	max-width: 100%;
